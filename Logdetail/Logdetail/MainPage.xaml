@@ -13,8 +13,8 @@
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
-            <StackLayout Orientation="Horizontal"></StackLayout>
-            <BoxView Color="Black" VerticalOptions="Start"/>
+            <StackLayout Orientation="Horizontal">
+                <BoxView Color="Black" VerticalOptions="Start"/>
             <BoxView Color="Blue" VerticalOptions="Start"/>
             <BoxView Color="Red" VerticalOptions="Start"/>
         </StackLayout>
