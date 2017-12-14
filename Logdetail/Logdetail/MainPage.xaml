@@ -7,13 +7,15 @@
         <StackLayout>
             <Label x:Name="label"
                 Text="ベンチプレス"
-                FontSize="30"/>
+                FontSize="30"
+                   HorizontalOptions="Center"/>
 
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
+            
             <BoxView BackgroundColor="Black"
                  WidthRequest="0.01"
-                 HeightRequest="3000"/>
+                 HeightRequest="30"/>
 
 
         </StackLayout>
