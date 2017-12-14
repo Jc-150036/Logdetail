@@ -13,9 +13,9 @@
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
             
-            <BoxView BackgroundColor="Black"
-                 WidthRequest="0.01"
-                 HeightRequest="30"/>
+            <BoxView Color="Black"
+                     HeightRequest="300"
+                     WidthRequest="0.01"/>
 
 
         </StackLayout>
