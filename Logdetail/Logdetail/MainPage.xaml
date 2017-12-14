@@ -5,9 +5,17 @@
              x:Class="Logdetail.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="label"
+                Text="ベンチプレス"
+                FontSize="30"/>
+
+            <BoxView BackgroundColor="Black"
+                 HeightRequest="0.5"/>
+            <BoxView BackgroundColor="Black"
+                 WidthRequest="0.01"
+                 HeightRequest="3000"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
