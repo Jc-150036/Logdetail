@@ -15,8 +15,7 @@
 
             <BoxView HeightRequest="150"
                      WidthRequest="0.5"
-                     HorizontalOptions="Center"
-                     VerticalOptions="EndAndExpand"/>
+                     />
         </StackLayout>
           
     </ContentPage.Content>
