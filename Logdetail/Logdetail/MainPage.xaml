@@ -15,7 +15,7 @@
 
             <BoxView HeightRequest="150"
                      WidthRequest="0.5"
-                     HorizontalOptions=""
+                     HorizontalOptions="Center"
                      VerticalOptions="EndAndExpand"/>
         </StackLayout>
           
