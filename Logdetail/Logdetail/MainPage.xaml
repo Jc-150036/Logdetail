@@ -13,11 +13,11 @@
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
-            <StackLayout Orientation="Horizontal">
-                <BoxView Color="Black" VerticalOptions="Start"/>
-            <BoxView Color="Blue" VerticalOptions="Start"/>
-            <BoxView Color="Red" VerticalOptions="Start"/>
+            <BoxView HeightRequest="150"
+                     WidthRequest="0.5"
+                     HorizontalOptions=""
+                     VerticalOptions="EndAndExpand"/>
         </StackLayout>
-        </StackLayout>
+          
     </ContentPage.Content>
 </ContentPage>
