@@ -13,9 +13,14 @@
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
 
-            <BoxView HeightRequest="150"
+            <BoxView BackgroundColor="Black"
+                     HeightRequest="150"
                      WidthRequest="0.5"
                      />
+            <AbsoluteLayout>
+                <BoxView AbsoluteLayout.LayoutBounds="0,10,200,5"/>
+                <BoxView AbsoluteLayout.LayoutBounds="10,0,5,65"/>
+            </AbsoluteLayout>
         </StackLayout>
           
     </ContentPage.Content>
