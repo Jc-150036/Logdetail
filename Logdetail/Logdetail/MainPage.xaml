@@ -30,12 +30,12 @@
                        Text="セット"
                        FontSize="30"/>
             </StackLayout>
-                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black"/>
                 <StackLayout Orientation="Vertical">
                     <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
                     <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
                     <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
                 </StackLayout>
+                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black"/>
                 <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black"/>
             </AbsoluteLayout>
             
