@@ -14,13 +14,13 @@
                  HeightRequest="0.5"/>
             <StackLayout Orientation="Horizontal">
             <Label x:Name="label1"
-                       Text="    日付          "
+                       Text="    日付               "
                        FontSize="30"/>
             <Label x:Name="label2"
                        Text="kg          "
                        FontSize="30"/>
             <Label x:Name="label3"
-                       Text="レッグ(回数)          "
+                       Text="   レッグ(回数)          "
                        FontSize="30"/>
             <Label x:Name="label4"
                        Text="セット"
