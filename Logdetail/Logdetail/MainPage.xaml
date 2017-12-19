@@ -12,6 +12,14 @@
 
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
+            
+            <AbsoluteLayout>
+                
+                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black"/>
+                
+                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black"/>
+                <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black"/>
+            </AbsoluteLayout>
             <StackLayout Orientation="Horizontal">
             <Label x:Name="label1"
                        Text="    日付               "
@@ -20,19 +28,12 @@
                        Text="kg          "
                        FontSize="30"/>
             <Label x:Name="label3"
-                       Text="   レッグ(回数)          "
+                       Text="        レッグ(回数)          "
                        FontSize="30"/>
             <Label x:Name="label4"
                        Text="セット"
                        FontSize="30"/>
             </StackLayout>
-            <AbsoluteLayout>
-                
-                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black"/>
-                
-                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black"/>
-                <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black"/>
-            </AbsoluteLayout>
         </StackLayout>
         
     </ContentPage.Content>
