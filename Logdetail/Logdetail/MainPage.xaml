@@ -20,6 +20,7 @@
                 <BoxView AbsoluteLayout.LayoutBounds="100,0,5,200" BackgroundColor="Black"/>
             </AbsoluteLayout>
         </StackLayout>
+        
           
     </ContentPage.Content>
 </ContentPage>
