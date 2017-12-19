@@ -31,6 +31,9 @@
                        FontSize="30"/>
             </StackLayout>
                 <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black"/>
+                <TimePicker Format="T" VerticalOptions="CenterAndExpand"/>
+                <TimePicker Format="T" VerticalOptions="CenterAndExpand"/>
+                <TimePicker Format="T" VerticalOptions="CenterAndExpand"/>
                 <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black"/>
             </AbsoluteLayout>
             
