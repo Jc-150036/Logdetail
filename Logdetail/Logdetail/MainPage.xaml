@@ -16,9 +16,9 @@
             
             <AbsoluteLayout>
                 
-                <BoxView AbsoluteLayout.LayoutBounds="180,0,5,500" BackgroundColor="Black"/>
-                <BoxView AbsoluteLayout.LayoutBounds="180,0,5,600" BackgroundColor="Black"/>
-                <BoxView AbsoluteLayout.LayoutBounds="200,0,5,700" BackgroundColor="Black"/>
+                <BoxView AbsoluteLayout.LayoutBounds="180,0,5,800" BackgroundColor="Black"/>
+                <BoxView AbsoluteLayout.LayoutBounds="360,0,5,800" BackgroundColor="Black"/>
+                <BoxView AbsoluteLayout.LayoutBounds="560,0,5,800" BackgroundColor="Black"/>
             </AbsoluteLayout>
         </StackLayout>
         
