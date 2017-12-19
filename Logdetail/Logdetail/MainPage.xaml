@@ -12,7 +12,7 @@
 
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
-
+            <StackLayout HorizontalOptions="Center">
             <Label x:Name="label1"
                        Text="    日付          "
                        FontSize="30"/>
@@ -25,6 +25,7 @@
             <Label x:Name="label4"
                        Text="セット"
                        FontSize="30"/>
+            </StackLayout>
             <AbsoluteLayout>
                 
                 <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black"/>
