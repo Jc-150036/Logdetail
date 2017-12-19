@@ -16,14 +16,14 @@
             <Label x:Name="label1"
                        Text="    日付          "
                        FontSize="30"/>
-            <Label x:Name="label1"
-                       Text="    kg          "
+            <Label x:Name="label2"
+                       Text="kg          "
                        FontSize="30"/>
-            <Label x:Name="label1"
-                       Text="    レッグ(回数)          "
+            <Label x:Name="label3"
+                       Text="レッグ(回数)          "
                        FontSize="30"/>
-            <Label x:Name="label1"
-                       Text="    セット"
+            <Label x:Name="label4"
+                       Text="セット"
                        FontSize="30"/>
             <AbsoluteLayout>
                 
