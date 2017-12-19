@@ -17,6 +17,9 @@
             <AbsoluteLayout>
                 
                 <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black"/>
+                <Label x:Name="label1"
+                       Text="日付"
+                       FontSize="30"/>
                 <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black"/>
                 <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black"/>
             </AbsoluteLayout>
