@@ -12,7 +12,7 @@
 
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
-            <StackLayout HorizontalOptions="Center">
+            <StackLayout Orientation="Horizontal">
             <Label x:Name="label1"
                        Text="    日付          "
                        FontSize="30"/>
