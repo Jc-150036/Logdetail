@@ -37,9 +37,9 @@
                 <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
                 <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
             </StackLayout>
-                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black"/>
-                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black"/>
-                <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black"/>
+                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" HeightRequest="40"/>
+                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" HeightRequest="50"/>
+                <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" HeightRequest="60"/>
             </AbsoluteLayout>
             
         </StackLayout>
