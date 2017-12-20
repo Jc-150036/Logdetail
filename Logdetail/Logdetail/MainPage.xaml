@@ -16,10 +16,8 @@
                  HeightRequest="0.5"/>
 
             <AbsoluteLayout>
-                <StackLayout Orientation="Vertical">
 
-
-                    <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
                         <StackLayout Orientation="Vertical">
                             <Label x:Name="label1"
                        Text="    日付               "
@@ -42,7 +40,6 @@
                     <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
                     <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
                     <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" />
-                </StackLayout>
             </AbsoluteLayout>
 
         </StackLayout>
