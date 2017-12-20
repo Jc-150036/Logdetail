@@ -14,36 +14,80 @@
 
             <BoxView BackgroundColor="Black"
                  HeightRequest="0.5"/>
-            
+
             <AbsoluteLayout>
                 <StackLayout Orientation="Vertical">
-           
-                
-            <StackLayout Orientation="Horizontal">
-            
-            <Label x:Name="label1"
-                       Text="    日付               "
-                       FontSize="30"/>
-            <Label x:Name="label2"
-                       Text="kg          "
-                       FontSize="30"/>
-            <Label x:Name="label3"
-                       Text="        レッグ(回数)     "
-                       FontSize="30"/>
-            <Label x:Name="label4"
-                       Text="セット"
-                       FontSize="30"/>
-            </StackLayout>
-            
-                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-            </StackLayout>
-                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
-                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
-                <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" />
+
+
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical">
+                            <Label x:Name="label1"
+                                Text="    日付               "
+                                FontSize="30"/>
+                            <Label x:Name="label2"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="label3"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="label4"
+                                   Text=" "
+                                   FontSize="40"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label x:Name="labe5"
+                                   Text="kg          "
+                                   FontSize="30"/>
+                            <Label x:Name="label6"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="label7"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="labe8"
+                                   Text=" "
+                                   FontSize="40"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label x:Name="label9"
+                                   Text="        レッグ(回数)     "
+                                   FontSize="30"/>
+                            <Label x:Name="label10"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="label11"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="label12"
+                                   Text=" "
+                                   FontSize="40"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label x:Name="label13"
+                                   Text="セット"
+                                   FontSize="30"/>
+                            <Label x:Name="label14"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="label15"
+                                   Text=" "
+                                   FontSize="40"/>
+                            <Label x:Name="label16"
+                                   Text=" "
+                                   FontSize="40"/>
+                        </StackLayout>
+
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                    </StackLayout>
+                    <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
+                    <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
+                    <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" />
+
+                </StackLayout>
             </AbsoluteLayout>
-            
+
         </StackLayout>
         
     </ContentPage.Content>
