@@ -5,8 +5,7 @@
              x:Class="Logdetail.MainPage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <Label x:Name=""
-                   Text=""
+            <Label Text=" "
                    FontSize="40"/>
             <Label x:Name="label"
                 Text="ベンチプレス"
