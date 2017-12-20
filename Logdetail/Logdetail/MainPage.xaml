@@ -33,13 +33,13 @@
                        FontSize="30"/>
             </StackLayout>
             
-                <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
-                <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
-                <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
+                <DatePicker Format="D" VerticalOptions="CenterAndExpand" HeightRequest="40"/>
+                <DatePicker Format="D" VerticalOptions="CenterAndExpand" HeightRequest="50"/>
+                <DatePicker Format="D" VerticalOptions="CenterAndExpand" HeightRequest="60"/>
             </StackLayout>
-                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" HeightRequest="40"/>
-                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" HeightRequest="50"/>
-                <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" HeightRequest="60"/>
+                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
+                <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
+                <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" />
             </AbsoluteLayout>
             
         </StackLayout>
