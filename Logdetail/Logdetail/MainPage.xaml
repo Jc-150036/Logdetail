@@ -33,9 +33,9 @@
                        FontSize="30"/>
             </StackLayout>
             
-                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="40"/>
-                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="50"/>
-                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="60"/>
+                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="200"/>
+                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="250"/>
+                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="300"/>
             </StackLayout>
                 <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
                 <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
