@@ -15,12 +15,14 @@
             
             <AbsoluteLayout>
                 
+           
+                
+            <StackLayout Orientation="Horizontal">
             <StackLayout Orientation="Vertical">
-                    <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
-                    <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
-                    <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
-            </StackLayout>   
-                <StackLayout Orientation="Horizontal">
+                <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
+                <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
+                <DatePicker Format="D" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
             <Label x:Name="label1"
                        Text="    日付               "
                        FontSize="30"/>
