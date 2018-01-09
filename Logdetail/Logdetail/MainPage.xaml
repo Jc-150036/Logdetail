@@ -61,14 +61,14 @@
                                    <Label Text=" "
                                       FontSize="40"/>
                                    <Label x:Name="label9"
-                                   Text="   あ               "
+                                   Text="   あ                 "
                                    FontSize="30"/>
 
                                    <Label x:Name="label10"
-                                   Text="   い               "
+                                   Text="   い                "
                                    FontSize="30"/>
                                    <Label x:Name="label11"
-                                   Text="    う    "
+                                   Text="   う      "
                                    FontSize="30"/>
                                   
                          </StackLayout>
