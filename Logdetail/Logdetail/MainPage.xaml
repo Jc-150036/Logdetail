@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Logdetail"
              x:Class="Logdetail.MainPage">
     <ContentPage.Content>
-        <StackLayout >
+        <StackLayout Orientation="Horizontal">
             <Label Text=" "
                    FontSize="40"/>
            
@@ -18,7 +18,7 @@
 
             <AbsoluteLayout>
             
-                        <StackLayout Orientation="Horizontal">
+                        
                             <Label x:Name="label1"
                                    Text="    日付               "
                                    FontSize="30"/>
@@ -36,7 +36,7 @@
                             <Label x:Name="label4"
                                    Text="セット"
                                    FontSize="30"/>
-                        </StackLayout>
+                        
                         <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
                         <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
                         <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" />
