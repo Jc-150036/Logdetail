@@ -54,7 +54,9 @@
                                    FontSize="30"/>
                                    <Label x:Name="label7"
                                    Text="    う"
-                                   FontSize="30"/>
+                                   FontSize="30"
+                                   WidthRequest="170"
+                                   BackgroundColor="Blue"/>
                                    
                          </StackLayout>
                          <StackLayout Orientation="Vertical">
@@ -69,7 +71,9 @@
                                    FontSize="30"/>
                                    <Label x:Name="label11"
                                    Text="   う      "
-                                   FontSize="30"/>
+                                   FontSize="30"
+                                   WidthRequest="130"
+                                   BackgroundColor="Blue"/>
                                   
                          </StackLayout>
                          <StackLayout Orientation="Vertical">
@@ -84,7 +88,9 @@
                                    FontSize="30"/>
                                    <Label x:Name="label15"
                                    Text="     う"
-                                   FontSize="30"/>
+                                   FontSize="30"
+                                   WidthRequest="110"
+                                   BackgroundColor="Blue"/>
                          </StackLayout>
                          </StackLayout>
                
