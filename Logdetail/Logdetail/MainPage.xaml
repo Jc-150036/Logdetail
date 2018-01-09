@@ -43,48 +43,47 @@
                                    <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
                         </StackLayout>   
                         <StackLayout Orientation="Vertical">
+                                   <Label Text=" "
+                                      FontSize="40"/>
                                    <Label x:Name="label5"
-                                   Text="あ"
+                                   Text="    あ               "
                                    FontSize="30"/>
 
                                    <Label x:Name="label6"
-                                   Text="い"
+                                   Text="    い               "
                                    FontSize="30"/>
                                    <Label x:Name="label7"
                                    Text="う"
                                    FontSize="30"/>
-                                   <Label x:Name="label8"
-                                   Text="え"
-                                   FontSize="30"/>
+                                   
                          </StackLayout>
                          <StackLayout Orientation="Vertical">
+                                   <Label Text=" "
+                                      FontSize="40"/>
                                    <Label x:Name="label9"
-                                   Text="あ"
+                                   Text="    あ               "
                                    FontSize="30"/>
 
                                    <Label x:Name="label10"
-                                   Text="い"
+                                   Text="    い               "
                                    FontSize="30"/>
                                    <Label x:Name="label11"
                                    Text="う"
                                    FontSize="30"/>
-                                   <Label x:Name="label12"
-                                   Text="え"
-                                   FontSize="30"/>
+                                  
                          </StackLayout>
                          <StackLayout Orientation="Vertical">
+                                   <Label Text=" "
+                                      FontSize="40"/>
                                    <Label x:Name="label13"
-                                   Text="あ"
+                                   Text="    あ               "
                                    FontSize="30"/>
 
                                    <Label x:Name="label14"
-                                   Text="い"
+                                   Text="    い               "
                                    FontSize="30"/>
                                    <Label x:Name="label15"
                                    Text="う"
-                                   FontSize="30"/>
-                                   <Label x:Name="label16"
-                                   Text="え"
                                    FontSize="30"/>
                          </StackLayout>
                          </StackLayout>
