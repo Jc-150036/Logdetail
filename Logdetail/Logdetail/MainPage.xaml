@@ -4,9 +4,14 @@
              xmlns:local="clr-namespace:Logdetail"
              x:Class="Logdetail.MainPage">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Horizontal">
             <Label Text=" "
                    FontSize="40"/>
+            <StackLayout Orientation="Vertical">
+            <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+            </StackLayout>
             <Label x:Name="label"
                    Text="ベンチプレス"
                    FontSize="30"
@@ -17,13 +22,11 @@
 
             <AbsoluteLayout>
 
-                <StackLayout Orientation="Horizontal">
+                
                         
 
-                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                    </StackLayout>
+                        
+                   
                         <StackLayout Orientation="Vertical">
                             <Label x:Name="label1"
                                    Text="    日付               "
