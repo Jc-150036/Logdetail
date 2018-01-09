@@ -61,7 +61,7 @@
                                    <Label Text=" "
                                       FontSize="40"/>
                                    <Label x:Name="label9"
-                                   Text="   あ                 "
+                                   Text="   あ                  "
                                    FontSize="30"/>
 
                                    <Label x:Name="label10"
@@ -83,7 +83,7 @@
                                    Text="     い               "
                                    FontSize="30"/>
                                    <Label x:Name="label15"
-                                   Text="      う"
+                                   Text="     う"
                                    FontSize="30"/>
                          </StackLayout>
                          </StackLayout>
