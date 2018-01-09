@@ -7,11 +7,7 @@
         <StackLayout Orientation="Horizontal">
             <Label Text=" "
                    FontSize="40"/>
-            <StackLayout Orientation="Vertical">
-            <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-            </StackLayout>
+           
             <Label x:Name="label"
                    Text="ベンチプレス"
                    FontSize="30"
@@ -21,13 +17,18 @@
                      HeightRequest="0.5"/>
 
             <AbsoluteLayout>
+            <StackLayout Orientation="Vertical">
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                        <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+            </StackLayout>
 
                 
                         
 
                         
                    
-                        <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
                             <Label x:Name="label1"
                                    Text="    日付               "
                                    FontSize="30"/>
