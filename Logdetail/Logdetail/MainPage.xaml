@@ -53,7 +53,7 @@
                                    Text="    い               "
                                    FontSize="30"/>
                                    <Label x:Name="label7"
-                                   Text="う"
+                                   Text="　　う"
                                    FontSize="30"/>
                                    
                          </StackLayout>
