@@ -53,9 +53,9 @@
                                    Text="    い               "
                                    FontSize="30"/>
                                    <Label x:Name="label7"
-                                   Text="    う"
+                                   Text=" う"
                                    FontSize="30"
-                                   WidthRequest="170"
+                                   WidthRequest="190"
                                    BackgroundColor="Blue"/>
                                    
                          </StackLayout>
@@ -70,9 +70,9 @@
                                    Text="   い                "
                                    FontSize="30"/>
                                    <Label x:Name="label11"
-                                   Text="   う      "
+                                   Text="う"
                                    FontSize="30"
-                                   WidthRequest="130"
+                                   WidthRequest="200"
                                    BackgroundColor="Blue"/>
                                   
                          </StackLayout>
@@ -87,9 +87,9 @@
                                    Text="     い               "
                                    FontSize="30"/>
                                    <Label x:Name="label15"
-                                   Text="     う"
+                                   Text="う"
                                    FontSize="30"
-                                   WidthRequest="110"
+                                   WidthRequest="210"
                                    BackgroundColor="Blue"/>
                          </StackLayout>
                          </StackLayout>
