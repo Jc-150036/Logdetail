@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Logdetail"
              x:Class="Logdetail.MainPage">
     <ContentPage.Content>
-        <StackLayout Orientation="Horizontal">
+        <StackLayout Orientation="Vertical">
             <Label Text=" "
                    FontSize="40"/>
            
@@ -17,27 +17,27 @@
                      HeightRequest="0.5"/>
 
             <AbsoluteLayout>
-            
-                        
-                            <Label x:Name="label1"
+
+                <StackLayout Orientation="Horizontal">
+                                   <Label x:Name="label1"
                                    Text="    日付               "
                                    FontSize="30"/>
                         <StackLayout Orientation="Vertical">
-                                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
-                                <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                                   <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                                   <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                                   <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
                         </StackLayout>
-                            <Label x:Name="label2"
+                                   <Label x:Name="label2"
                                    Text="kg          "
                                    FontSize="30"/>
-                            <Label x:Name="label3"
+                                   <Label x:Name="label3"
                                    Text="        レッグ(回数)     "
                                    FontSize="30"/>
-                            <Label x:Name="label4"
+                                   <Label x:Name="label4"
                                    Text="セット"
                                    FontSize="30"/>
-                        
-                        <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
+                </StackLayout>
+                <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
                         <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
                         <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" />
             </AbsoluteLayout>
