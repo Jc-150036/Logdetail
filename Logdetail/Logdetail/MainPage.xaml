@@ -34,12 +34,14 @@
                                    FontSize="30"/>
                 </StackLayout>
                 
-                <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                        <StackLayout Orientation="Vertical">
                                    <Label Text=" "
-                                         FontSize="40"/>
+                                      FontSize="40"/>
                                    <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
                                    <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
                                    <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
+                        </StackLayout>   
                         <StackLayout Orientation="Vertical">
                                    <Label x:Name="label5"
                                    Text="あ"
