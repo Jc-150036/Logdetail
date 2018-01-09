@@ -55,7 +55,7 @@
                                    <Label x:Name="label7"
                                    Text=" う"
                                    FontSize="30"
-                                   WidthRequest="170"
+                                   WidthRequest="185"
                                    BackgroundColor="Blue"/>
                                    
                          </StackLayout>
