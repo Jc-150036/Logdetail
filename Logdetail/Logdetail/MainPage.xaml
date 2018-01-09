@@ -34,7 +34,8 @@
                                    FontSize="30"/>
                 </StackLayout>
                 <StackLayout Orientation="Vertical">
-                                   <DatePicker Format="" HorizontalOptions="" WidthRequest=""/>
+                                   <Label Text=" "
+                                         FontSize="40"/>
                                    <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
                                    <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
                                    <DatePicker Format="D" HorizontalOptions="Start" WidthRequest="170"/>
