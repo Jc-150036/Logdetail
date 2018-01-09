@@ -52,8 +52,8 @@
                                    <Label x:Name="label7"
                                    Text="う"
                                    FontSize="30"/>
-                                   <Labelえ x:Name="label8"
-                                   Text=""
+                                   <Label x:Name="label8"
+                                   Text="え"
                                    FontSize="30"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
@@ -67,8 +67,8 @@
                                    <Label x:Name="label11"
                                    Text="う"
                                    FontSize="30"/>
-                                   <Labelえ x:Name="label12"
-                                   Text=""
+                                   <Label x:Name="label12"
+                                   Text="え"
                                    FontSize="30"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
@@ -82,8 +82,8 @@
                                    <Label x:Name="label15"
                                    Text="う"
                                    FontSize="30"/>
-                                   <Labelえ x:Name="label16"
-                                   Text=""
+                                   <Label x:Name="label16"
+                                   Text="え"
                                    FontSize="30"/>
                 </StackLayout>
                 <BoxView AbsoluteLayout.LayoutBounds="180,0,3,1000" BackgroundColor="Black" />
