@@ -46,63 +46,54 @@
                                    <Label Text=" "
                                       FontSize="40"/>
                                    <Label x:Name="label5"
-                                   Text="あ"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                          BackgroundColor="Blue"/>
+                                   WidthRequest="190"/>
 
                                    <Label x:Name="label6"
-                                   Text="い"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                          BackgroundColor="Blue"/>
+                                   WidthRequest="190"/>
                                    <Label x:Name="label7"
-                                   Text="う"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                   BackgroundColor="Blue"/>
+                                   WidthRequest="190"/>
                                    
                          </StackLayout>
                          <StackLayout Orientation="Vertical">
                                    <Label Text=" "
                                       FontSize="40"/>
                                    <Label x:Name="label9"
-                                   Text="あ"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                          BackgroundColor="Red"/>
+                                   WidthRequest="190"/>
 
                                    <Label x:Name="label10"
-                                   Text="い"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                          BackgroundColor="Red"/>
+                                   WidthRequest="190"/>
                                    <Label x:Name="label11"
-                                   Text="う"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                   BackgroundColor="Red"/>
+                                   WidthRequest="190"/>
                                   
                          </StackLayout>
                          <StackLayout Orientation="Vertical">
                                    <Label Text=" "
                                       FontSize="40"/>
                                    <Label x:Name="label13"
-                                   Text="あ"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                          BackgroundColor="Green"/>
+                                   WidthRequest="190"/>
 
                                    <Label x:Name="label14"
-                                   Text="い"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                          BackgroundColor="Green"/>
+                                   WidthRequest="190"/>
                                    <Label x:Name="label15"
-                                   Text="う"
+                                   Text=""
                                    FontSize="30"
-                                   WidthRequest="190"
-                                   BackgroundColor="Green"/>
+                                   WidthRequest="190"/>
                          </StackLayout>
                          </StackLayout>
                
