@@ -48,16 +48,16 @@
                                    <Label x:Name="label5"
                                    Text="あ"
                                    FontSize="30"
-                                   WidthRequest="170"/>
+                                   WidthRequest="180"/>
 
                                    <Label x:Name="label6"
                                    Text="い"
                                    FontSize="30"
-                                   WidthRequest="160"/>
+                                   WidthRequest="180"/>
                                    <Label x:Name="label7"
                                    Text=" う"
                                    FontSize="30"
-                                   WidthRequest="175"
+                                   WidthRequest="180"
                                    BackgroundColor="Blue"/>
                                    
                          </StackLayout>
@@ -66,11 +66,13 @@
                                       FontSize="40"/>
                                    <Label x:Name="label9"
                                    Text="   あ                  "
-                                   FontSize="30"/>
+                                   FontSize="30"
+                                   WidthRequest="180"/>
 
                                    <Label x:Name="label10"
                                    Text="   い                "
-                                   FontSize="30"/>
+                                   FontSize="30"
+                                   WidthRequest="180"/>
                                    <Label x:Name="label11"
                                    Text="う"
                                    FontSize="30"
