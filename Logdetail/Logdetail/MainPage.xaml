@@ -54,12 +54,12 @@
                                    <Label x:Name="label6"
                                    Text="い"
                                    FontSize="30"
-                                   WidthRequest="180"
+                                   WidthRequest="190"
                                           BackgroundColor="Blue"/>
                                    <Label x:Name="label7"
                                    Text="う"
                                    FontSize="30"
-                                   WidthRequest="170"
+                                   WidthRequest="190"
                                    BackgroundColor="Blue"/>
                                    
                          </StackLayout>
@@ -75,12 +75,12 @@
                                    <Label x:Name="label10"
                                    Text="い"
                                    FontSize="30"
-                                   WidthRequest="180"
+                                   WidthRequest="190"
                                           BackgroundColor="Red"/>
                                    <Label x:Name="label11"
                                    Text="う"
                                    FontSize="30"
-                                   WidthRequest="170"
+                                   WidthRequest="190"
                                    BackgroundColor="Red"/>
                                   
                          </StackLayout>
@@ -96,12 +96,12 @@
                                    <Label x:Name="label14"
                                    Text="い"
                                    FontSize="30"
-                                   WidthRequest="180"
+                                   WidthRequest="190"
                                           BackgroundColor="Green"/>
                                    <Label x:Name="label15"
                                    Text="う"
                                    FontSize="30"
-                                   WidthRequest="170"
+                                   WidthRequest="190"
                                    BackgroundColor="Green"/>
                          </StackLayout>
                          </StackLayout>
