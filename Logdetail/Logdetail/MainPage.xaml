@@ -101,6 +101,64 @@
                                    <BoxView AbsoluteLayout.LayoutBounds="360,0,3,1000" BackgroundColor="Black" />
                                    <BoxView AbsoluteLayout.LayoutBounds="560,0,3,1000" BackgroundColor="Black" />
             </AbsoluteLayout>
+            <NavigationPage Title="記録" Icon="contract.png">　
+
+
+                <x:Arguments>
+
+                    <local:RecordListPage />
+
+                </x:Arguments>
+
+            </NavigationPage>
+
+
+
+            <NavigationPage Title="トレーニング履歴" Icon="notebook.png">
+
+                <x:Arguments>
+
+                    <local:TrainingLogPage />
+
+                </x:Arguments>
+
+            </NavigationPage>
+
+
+
+            <NavigationPage Title="メニュー一覧" Icon="dumbbell-variant-outline.png">
+
+                <x:Arguments>
+
+                    <local:MenuPage />
+
+                </x:Arguments>
+
+            </NavigationPage>
+
+
+
+            <NavigationPage Title="ボディー統計" Icon="graph.png">
+
+                <x:Arguments>
+
+                    <local:GraphPage />
+
+                </x:Arguments>
+
+            </NavigationPage>
+
+
+
+            <NavigationPage Title="RM計算" Icon="calculator.png">
+
+                <x:Arguments>
+
+                    <local:RMPage />
+
+                </x:Arguments>
+
+            </NavigationPage>
 
         </StackLayout>
         
